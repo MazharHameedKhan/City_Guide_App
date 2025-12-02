@@ -1,0 +1,19 @@
+city lists
+
+http://localhost/cityguide_api/admin/city_list.php
+
+
+create new city
+
+http://localhost/cityguide_api/admin/city_create.php
+
+
+view attaractin lists
+
+
+http://localhost/cityguide_api/admin/attractions_list.php
+
+
+
+
+http://localhost/cityguide_api/admin/login.php

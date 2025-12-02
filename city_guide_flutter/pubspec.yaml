@@ -1,0 +1,46 @@
+name: city_guide_flutter
+description: "A City Guide Flutter App connected with PHP & MySQL backend."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  http: ^1.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Image picker (for profile picture upload)
+  image_picker: ^1.1.2
+
+  # Local storage (for saving user session)
+  shared_preferences: ^2.3.3
+
+  # Toast notifications
+  fluttertoast: ^8.2.6
+
+  # Launch URLs (e.g., map links)
+  url_launcher: ^6.3.1
+
+  # Cached images for faster loading
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash.png
